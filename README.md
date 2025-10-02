@@ -69,9 +69,9 @@ npx expo start
 ---
 ## 📷 Screenshots
 
-![Active Prayers](./assets/images/active-prayers-screenshot.jpg)
-![Active Prayers](./assets/images/add-prayer-screenshot.jpg)
-![Active Prayers](./assets/images/answered-prayers-screenshot.jpg)
+![Active Prayers](assets/images/active-prayers-screenshot.jpg)
+![Active Prayers](assets/images/add-prayer-screenshot.jpg)
+![Active Prayers](assets/images/answered-prayers-screenshot.jpg)
 
 ---
 ## 🚀 Future Improvements
