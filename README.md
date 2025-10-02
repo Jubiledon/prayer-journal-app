@@ -1,50 +1,81 @@
-# Welcome to your Expo app 👋
+# 🙏 Prayer Journal App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform **Prayer Journal App** built with **React Native** and **TypeScript**.  
+The app allows users to **record prayer requests**, **track progress**, and **reflect on answered prayers**.  
+Data is stored locally on the device using **AsyncStorage**, with a scalable architecture that can be extended to cloud backends such as Supabase or Firebase.
 
-## Get started
+---
 
-1. Install dependencies
+## 📖 Table of Contents
+- [Features](#features)
+- [Technologies](#technologies)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Future Improvements](#future-improvements)
+- [Contribution](#contribution)
+- [License](#license)
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## ✨ Features
+- Add new prayer requests with title & description  
+- View a list of active (unanswered) prayers  
+- Mark prayers as answered (moves to “Answered” tab)  
+- Persistent local storage with **AsyncStorage**  
+- Modular, typed components using **TypeScript**  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Technologies
+- [React Native](https://reactnative.dev/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [React Navigation](https://reactnavigation.org/)  
+- [AsyncStorage](https://github.com/react-native-async-storage/async-storage)  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📦 Requirements
+- Node.js (v18 or later recommended)  
+- npm or yarn package manager  
+- Expo CLI (`npm install -g expo-cli`)  
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ⚙️ Installation
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone https://github.com/your-username/prayer-journal-app.git
+
+# Navigate to the project folder
+cd prayer-journal-app
+
+# Install dependencies
+npm install
+# or
+yarn install
 ```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## ▶️ Usage
 
-## Learn more
+Start the app with expo
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npx expo start
+```
+---
+## 📷 Screenshots
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+![Active Prayers](./assets/images/active-prayers-screenshot.jpg)
+![Active Prayers](./assets/images/add-prayer-screenshot.jpg)
+![Active Prayers](./assets/images/answered-prayers-screenshot.jpg)
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+## 🚀 Future Improvements
+- Cloud sync with Supabase (Postgres) or Firebase Firestore
+- Prayer categories (Personal, Family, Church)
+- Notifications & reminders
+- Authentication for multiple users
