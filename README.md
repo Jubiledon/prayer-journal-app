@@ -1,4 +1,4 @@
-# 🙏 Prayer Journal App
+# Prayer Journal App
 
 A cross-platform **Prayer Journal App** built with **React Native** and **TypeScript**.  
 The app allows users to **record prayer requests**, **track progress**, and **reflect on answered prayers**.  
@@ -19,7 +19,7 @@ Data is stored locally on the device using **AsyncStorage**, with a scalable arc
 
 ---
 
-## ✨ Features
+## Features
 - Add new prayer requests with title & description  
 - View a list of active (unanswered) prayers  
 - Mark prayers as answered (moves to “Answered” tab)  
@@ -28,7 +28,7 @@ Data is stored locally on the device using **AsyncStorage**, with a scalable arc
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 - [React Native](https://reactnative.dev/)  
 - [TypeScript](https://www.typescriptlang.org/)  
 - [React Navigation](https://reactnavigation.org/)  
@@ -36,14 +36,14 @@ Data is stored locally on the device using **AsyncStorage**, with a scalable arc
 
 ---
 
-## 📦 Requirements
+## Requirements
 - Node.js (v18 or later recommended)  
 - npm or yarn package manager  
 - Expo CLI (`npm install -g expo-cli`)  
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -59,7 +59,7 @@ yarn install
 ```
 ---
 
-## ▶️ Usage
+## Usage
 
 Start the app with expo
 
@@ -67,14 +67,14 @@ Start the app with expo
 npx expo start
 ```
 ---
-## 📷 Screenshots
+## Screenshots
 
 ![Active Prayers](assets/images/active-prayers-screenshot.jpg)
 ![Active Prayers](assets/images/add-prayer-screenshot.jpg)
 ![Active Prayers](assets/images/answered-prayers-screenshot.jpg)
 
 ---
-## 🚀 Future Improvements
+## Future Improvements
 - Cloud sync with Supabase (Postgres) or Firebase Firestore
 - Prayer categories (Personal, Family, Church)
 - Notifications & reminders
