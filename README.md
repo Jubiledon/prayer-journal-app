@@ -6,7 +6,7 @@ Data is stored locally on the device using **AsyncStorage**, with a scalable arc
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 - [Features](#features)
 - [Technologies](#technologies)
 - [Requirements](#requirements)
